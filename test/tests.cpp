@@ -53,11 +53,11 @@ TEST(TestTask, CircleGetRadius2) {
     EXPECT_EQ(c.getRadius(), 500);
 }
 TEST(TestTask, CircleGetFerence2) {
-    Circle c(5);
+    Circle c(500);
     EXPECT_EQ(c.getFerence(), 1000 * M_PI);
 }
 TEST(TestTask, CircleGetArea2) {
-    Circle c(5);
+    Circle c(500);
     EXPECT_EQ(c.getArea(), 250000 * M_PI);
 }
 TEST(TestTask, CircleWrongRadius2) {
